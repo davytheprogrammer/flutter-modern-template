@@ -1,5 +1,5 @@
 name: flutter_modern_template
-description: "A modern Flutter template with Material 3 design and Gradle 8.7"
+description: "🚀 Android-focused Flutter template with Material 3, rich Dart code, and modern architecture"
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -19,3 +19,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+# Platform-specific configuration
+platforms:
+  android:
+    default_package: flutter_modern_template
